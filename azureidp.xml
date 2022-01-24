@@ -148,7 +148,7 @@
 </X509Data>
 </KeyInfo>
 </KeyDescriptor>
-<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://login.microsoftonline.com/61318f71-9c58-4f75-b8af-329e649fcd80/saml2"/>
+<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.microsoftonline.com/61318f71-9c58-4f75-b8af-329e649fcd80/saml2"/>
 <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://login.microsoftonline.com/61318f71-9c58-4f75-b8af-329e649fcd80/saml2"/>
 <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.microsoftonline.com/61318f71-9c58-4f75-b8af-329e649fcd80/saml2"/>
 </IDPSSODescriptor>
